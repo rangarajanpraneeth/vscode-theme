@@ -112,7 +112,10 @@
                "punctuation.definition.template-expression.end",
                "punctuation.parenthesis.begin.python",
                "punctuation.parenthesis.end.python",
+               "punctuation.section.function.begin.bracket.round.css",
+               "punctuation.section.function.end.bracket.round.css",
                "punctuation.section.function.begin.python",
+               "punctuation.section.function.end.python",
                "punctuation.separator.arguments.python",
                "punctuation.separator.element.python",
                "punctuation.separator.key-value",
@@ -282,6 +285,7 @@
                // OTHER
                "entity.other.attribute-name.pseudo-class",
                "keyword.other.unit",
+               "meta.property-value.css",
                "source.python",
                "support.constant.color.w3c-standard-color-name.css",
                "support.type.object.module",
@@ -289,7 +293,6 @@
                "variable.other.constant",
                "variable.parameter.function.language.python",
                "variable.parameter.function.language.special.self.python",
-               "meta.property-value.css",
             ],
             "settings": {
                "foreground": "#ccc",
