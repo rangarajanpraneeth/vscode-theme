@@ -39,6 +39,7 @@
    "editor.fontWeight": "500",
    "editor.lineHeight": 22,
    "editor.lineNumbers": "off",
+   "editor.minimap.renderCharacters": false,
    "editor.minimap.scale": 2,
    "editor.renderLineHighlight": "gutter",
    "editor.tabSize": 3,
@@ -335,6 +336,4 @@
          // }
       ]
    },
-   "editor.minimap.size": "fit",
-   "editor.minimap.renderCharacters": false,
 }
