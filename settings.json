@@ -91,6 +91,7 @@
                "punctuation.terminator",
                // CUSTOM (DEFAULT = JS)
                "keyword.operator.assignment.compound.js",
+               "keyword.operator.bitwise",
                "keyword.operator.comparison",
                "keyword.operator.decrement",
                "keyword.operator.increment",
@@ -116,6 +117,7 @@
                "variable.other.readwrite",
                "variable.parameter",
                // CUSTOM (DEFAULT = JS)
+               "constant.language.import-export-all.js" // * in import
                "entity.name.type.module",
                "support.type.object.module",
                "variable.other.constant",
@@ -183,6 +185,8 @@
                "keyword.control.anchor.regexp",
                "keyword.operator.negation.regexp",
                "keyword.operator.quantifier.regexp",
+               "meta.assertion.negative-look-ahead.regexp",
+               "meta.group.assertion.regexp",
                "meta.group.regexp"
                "punctuation.definition.group.regexp",
             ],
