@@ -103,6 +103,9 @@
                "punctuation.definition.template-expression.end",
                "punctuation.separator.key-value",
                "support.type.property-name.json punctuation",
+               // JSDOC
+               "punctuation.definition.bracket.curly.begin.jsdoc",
+               "punctuation.definition.bracket.curly.end.jsdoc",
             ],
             "settings": {
                "foreground": "#fff"
@@ -121,6 +124,8 @@
                "entity.name.type.module",
                "support.type.object.module",
                "variable.other.constant",
+               // JSDOC
+               "entity.name.type.instance.jsdoc",
             ],
             "settings": {
                "foreground": "#ccc"
