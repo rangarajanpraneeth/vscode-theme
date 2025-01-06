@@ -104,8 +104,9 @@
                "punctuation.separator.key-value",
                "support.type.property-name.json punctuation",
                // JSDOC
-               "punctuation.definition.bracket.curly.begin.jsdoc",
-               "punctuation.definition.bracket.curly.end.jsdoc",
+               // "punctuation.definition.bracket.curly.begin.jsdoc",
+               // "punctuation.definition.bracket.curly.end.jsdoc",
+               // "entity.name.type.instance.jsdoc",
             ],
             "settings": {
                "foreground": "#fff"
@@ -125,7 +126,7 @@
                "support.type.object.module",
                "variable.other.constant",
                // JSDOC
-               "entity.name.type.instance.jsdoc",
+               // "entity.name.type.instance.jsdoc",
             ],
             "settings": {
                "foreground": "#ccc"
@@ -139,6 +140,9 @@
                "comment.line",
                // CUSTOM (DEFAULT = JS)
                "punctuation.definition.comment",
+               // JSDOC
+               // "comment.block.documentation.js",
+               "source.embedded.ts", // comments under @example
             ],
             "settings": {
                "foreground": "#777"
