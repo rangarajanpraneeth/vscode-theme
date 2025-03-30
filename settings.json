@@ -47,9 +47,10 @@
    // THEME
    "workbench.colorTheme": "One Dark Pro Darker",
    "workbench.iconTheme": "material-icon-theme",
-   "material-icon-theme.folders.color": "#f66",
+   "material-icon-theme.folders.color": "#ddb77b",
    "material-icon-theme.hidesExplorerArrows": true,
    "material-icon-theme.saturation": 1,
+   // "material-icon-theme.files.color": "#ff0000",
    // WORKBENCH COLOR CUSTOMIZATIONS
    "workbench.colorCustomizations": {
       "minimap.background": "#1e2227",
