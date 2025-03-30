@@ -247,7 +247,9 @@
                "entity.other.inherited-class",
                // CUSTOM (DEFAULT = JS)
                "entity.name.type.class",
-               "meta.class" // # class private methods
+               "meta.class", // # class private methods
+
+               "variable.language.super.js",
             ],
             "settings": {
                "foreground": "#fc6"
