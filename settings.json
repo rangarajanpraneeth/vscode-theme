@@ -34,6 +34,8 @@
    "editor.stickyScroll.enabled": true,
    "editor.stickyScroll.maxLineCount": 10,
    "javascript.suggestionActions.enabled": false,
+
+   // "editor.inlineSuggest.enabled": false,
    // EXTRA
    "editor.unicodeHighlight.ambiguousCharacters": false,
    "editor.unicodeHighlight.invisibleCharacters": false,
