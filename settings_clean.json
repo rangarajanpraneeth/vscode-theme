@@ -220,7 +220,8 @@
                "entity.other.inherited-class",
                "entity.name.type.class",
                "meta.class",
-               "variable.language.super.js"
+               "variable.language.super.js",
+               "support.class.promise.js"
             ],
             "settings": {
                "foreground": "#fc6"
@@ -282,5 +283,6 @@
             }
          }
       ]
-   }
+   },
+   "workbench.editor.empty.hint": "hidden"
 }
