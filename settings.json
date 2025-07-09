@@ -1,10 +1,8 @@
 {
-   // LANGUAGE SPECIFIC SETTINGS
    "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter",
       "editor.tabSize": 4
    },
-   // APPEARANCE
    "editor.cursorBlinking": "phase",
    "editor.fontFamily": "JetBrains Mono",
    "editor.fontLigatures": true,
@@ -17,7 +15,6 @@
    "editor.renderLineHighlight": "gutter",
    "editor.tabSize": 3,
    "editor.wordWrap": "on",
-   // BEHAVIOR
    "editor.bracketPairColorization.enabled": false,
    "editor.codeLens": false,
    "editor.detectIndentation": false,
@@ -34,9 +31,6 @@
    "editor.stickyScroll.enabled": true,
    "editor.stickyScroll.maxLineCount": 10,
    "javascript.suggestionActions.enabled": false,
-
-   // "editor.inlineSuggest.enabled": false,
-   // EXTRA
    "editor.unicodeHighlight.ambiguousCharacters": false,
    "editor.unicodeHighlight.invisibleCharacters": false,
    "json.schemaDownload.enable": true,
@@ -46,14 +40,11 @@
    "window.customTitleBarVisibility": "windowed",
    "window.menuBarVisibility": "visible",
    "window.titleBarStyle": "custom",
-   // THEME
    "workbench.colorTheme": "One Dark Pro Darker",
    "workbench.iconTheme": "material-icon-theme",
    "material-icon-theme.folders.color": "#ddb77b",
    "material-icon-theme.hidesExplorerArrows": true,
    "material-icon-theme.saturation": 1,
-   // "material-icon-theme.files.color": "#ff0000",
-   // WORKBENCH COLOR CUSTOMIZATIONS
    "workbench.colorCustomizations": {
       "minimap.background": "#1e2227",
       "minimap.errorHighlight": "#00000000",
@@ -63,10 +54,9 @@
       "minimap.warningHighlight": "#00000000",
       "minimapSlider.activeBackground": "#00000042",
       "minimapSlider.background": "#00000042",
-      "minimapSlider.hoverBackground": "#00000042",
+      "minimapSlider.hoverBackground": "#00000042"
    },
    "workbench.panel.defaultLocation": "right",
-   // TOKEN COLOR CUSTOMIZATIONS
    "editor.tokenColorCustomizations": {
       "textMateRules": [
          {
@@ -93,7 +83,6 @@
                "punctuation.separator",
                "punctuation.separator.continuation",
                "punctuation.terminator",
-               // CUSTOM (DEFAULT = JS)
                "keyword.operator.assignment.compound.js",
                "keyword.operator.bitwise",
                "keyword.operator.comparison",
@@ -102,16 +91,12 @@
                "keyword.operator.relational",
                "keyword.operator.ternary",
                "meta.brace.square.js",
-               "punctuation.definition.block.js""punctuation.definition.template-expression.begin",
+               "punctuation.definition.block.js",
+               "punctuation.definition.template-expression.begin",
                "punctuation.definition.template-expression.end",
                "punctuation.separator.key-value",
                "support.type.property-name.json punctuation",
-               // JSDOC
-               // "punctuation.definition.bracket.curly.begin.jsdoc",
-               // "punctuation.definition.bracket.curly.end.jsdoc",
-               // "entity.name.type.instance.jsdoc",
-
-               "punctuation.definition.string.template.begin.js"
+               "punctuation.definition.string.template.begin.js",
                "punctuation.definition.string.template.end.js"
             ],
             "settings": {
@@ -126,13 +111,10 @@
                "variable.other",
                "variable.other.readwrite",
                "variable.parameter",
-               // CUSTOM (DEFAULT = JS)
-               "constant.language.import-export-all.js" // * in import
+               "constant.language.import-export-all.js",
                "entity.name.type.module",
                "support.type.object.module",
-               "variable.other.constant",
-               // JSDOC
-               // "entity.name.type.instance.jsdoc",
+               "variable.other.constant"
             ],
             "settings": {
                "foreground": "#ccc"
@@ -144,11 +126,8 @@
                "comment.block",
                "comment.block.documentation",
                "comment.line",
-               // CUSTOM (DEFAULT = JS)
                "punctuation.definition.comment",
-               // JSDOC
-               // "comment.block.documentation.js",
-               "source.embedded.ts", // comments under @example
+               "source.embedded.ts"
             ],
             "settings": {
                "foreground": "#777"
@@ -161,8 +140,7 @@
                "constant.numeric.float",
                "constant.numeric.hex",
                "constant.numeric.integer",
-               "constant.numeric.octal",
-               // CUSTOM (DEFAULT = JS)
+               "constant.numeric.octal"
             ],
             "settings": {
                "foreground": "#79c"
@@ -178,9 +156,8 @@
                "support.type",
                "support.type.property-name",
                "support.variable",
-               // CUSTOM (DEFAULT = JS)
                "support.type.property-name.json",
-               "support.variable.property",
+               "support.variable.property"
             ],
             "settings": {
                "foreground": "#79c"
@@ -192,8 +169,8 @@
                "constant.character.escape",
                "constant.other",
                "constant.regexp",
-               "constant.rgb-value""string.regexp",
-               // CUSTOM (DEFAULT = JS)
+               "constant.rgb-value",
+               "string.regexp",
                "constant.other.character-class.regexp",
                "constant.other.character-class.set.regexp",
                "keyword.control.anchor.regexp",
@@ -201,13 +178,8 @@
                "keyword.operator.quantifier.regexp",
                "meta.assertion.negative-look-ahead.regexp",
                "meta.group.assertion.regexp",
-               "meta.group.regexp""punctuation.definition.group.regexp",
-
-               // "string.regexp.js",
-               // "meta.var.expr.js",
-               // "keyword.operator.quantifier.regexp",
-               // "punctuation.definition.string.begin.js",
-               // "punctuation.definition.string.end.js"
+               "meta.group.regexp",
+               "punctuation.definition.group.regexp"
             ],
             "settings": {
                "foreground": "#c84"
@@ -217,18 +189,16 @@
             "scope": [
                "keyword.control",
                "keyword.operator.new",
-               "keyword.other", // moved from all white
+               "keyword.other",
                "storage",
                "storage.modifier",
                "storage.type",
-               // CUSTOM (DEFAULT = JS)
                "keyword.operator.expression.delete",
                "keyword.operator.expression.in",
                "keyword.operator.expression.instanceof",
                "keyword.operator.expression.of",
                "keyword.operator.expression.typeof",
-
-               "keyword.operator.expression.void", // void
+               "keyword.operator.expression.void"
             ],
             "settings": {
                "foreground": "#c84"
@@ -248,11 +218,10 @@
                "entity.other",
                "entity.other.attribute-name",
                "entity.other.inherited-class",
-               // CUSTOM (DEFAULT = JS)
                "entity.name.type.class",
-               "meta.class", // # class private methods
-
+               "meta.class",
                "variable.language.super.js",
+               "support.class.promise.js"
             ],
             "settings": {
                "foreground": "#fc6"
@@ -260,10 +229,11 @@
          },
          {
             "scope": [
-               // CUSTOM (DEFAULT = JS)
                "meta.object-literal.key",
                "variable.other.object.property.js",
                "variable.other.property.js",
+
+               "variable.other.constant.property.js"
             ],
             "settings": {
                "foreground": "#97b"
@@ -279,8 +249,7 @@
                "string.quoted.other",
                "string.quoted.single",
                "string.quoted.triple",
-               "string.unquoted",
-               // CUSTOM (DEFAULT = JS)
+               "string.unquoted"
             ],
             "settings": {
                "foreground": "#685"
@@ -308,21 +277,14 @@
                "markup.raw",
                "markup.underline",
                "markup.underline.link",
-               "strong",
-               // CUSTOM (DEFAULT = JS)
+               "strong"
             ],
             "settings": {
                "foreground": "#f66",
                "fontStyle": "bold"
             }
          }
-         // TEST CASES
-         // {
-         //    "scope": [],
-         //    "settings": {
-         //       "foreground": "#000"
-         //    }
-         // },
       ]
-   }
+   },
+   "workbench.editor.empty.hint": "hidden"
 }
