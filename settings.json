@@ -232,7 +232,6 @@
                "meta.object-literal.key",
                "variable.other.object.property.js",
                "variable.other.property.js",
-
                "variable.other.constant.property.js"
             ],
             "settings": {
