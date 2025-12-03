@@ -6,7 +6,7 @@
    "editor.cursorBlinking": "phase",
    "editor.fontFamily": "JetBrains Mono",
    "editor.fontLigatures": true,
-   "editor.fontSize": 15,
+   "editor.fontSize": 16,
    "editor.fontWeight": "500",
    "editor.lineHeight": 22,
    "editor.lineNumbers": "off",
@@ -16,8 +16,8 @@
    "editor.tabSize": 3,
    "editor.wordWrap": "on",
    "editor.bracketPairColorization.enabled": false,
-   "editor.codeLens": false,
-   "editor.detectIndentation": false,
+   // "editor.codeLens": false,
+   // "editor.detectIndentation": false,
    "editor.formatOnSave": false,
    "editor.guides.bracketPairs": false,
    "editor.guides.bracketPairsHorizontal": false,
@@ -34,7 +34,7 @@
    "editor.unicodeHighlight.ambiguousCharacters": false,
    "editor.unicodeHighlight.invisibleCharacters": false,
    "json.schemaDownload.enable": true,
-   "json.validate.enable": false,
+   // "json.validate.enable": false,
    "security.workspace.trust.untrustedFiles": "open",
    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
    "window.customTitleBarVisibility": "windowed",
@@ -285,5 +285,9 @@
          }
       ]
    },
-   "workbench.editor.empty.hint": "hidden"
+   "workbench.editor.empty.hint": "hidden",
+   "editor.smoothScrolling": true,
+   "javascript.suggest.autoImports": true,
+   "typescript.suggest.autoImports": true,
+   // "editor.inlineSuggest.enabled": true
 }
