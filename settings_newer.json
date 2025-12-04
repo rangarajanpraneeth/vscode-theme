@@ -34,6 +34,8 @@
    "material-icon-theme.folders.color": "#ddbb77",
    "material-icon-theme.hidesExplorerArrows": true,
    "material-icon-theme.saturation": 1,
+   "window.customTitleBarVisibility": "windowed",
+   "window.menuBarVisibility": "visible",
    "workbench.colorCustomizations": {
       "minimap.background": "#1e2227",
       "minimapSlider.background": "#00000040",
