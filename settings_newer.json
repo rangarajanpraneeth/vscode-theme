@@ -46,5 +46,6 @@
       "minimap.findMatchHighlight": "#cccccc40",
       "minimap.selectionHighlight": "#474f5e40",
       "minimap.selectionOccurrenceHighlight": "#474f5e40"
-   }
+   },
+   "security.workspace.trust.untrustedFiles": "open"
 }
