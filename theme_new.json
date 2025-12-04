@@ -221,7 +221,7 @@
          "name": "Regex",
          "scope": "regex",
          "settings": {
-            "fontStyle": " italic"
+            "fontStyle": "italic"
          }
       },
       {
@@ -476,19 +476,9 @@
          }
       },
       {
-         "name": "Custom THIS keyword coloring",
+         "name": "Regex OR sign",
          "scope": [
-            "variable.language"
-         ],
-         "settings": {
-            "foreground": "#cccccc"
-         }
-      },
-      {
-         "name": "Custom REGEX coloring",
-         "scope": [
-            "keyword.operator.or.regexp",
-            "constant.character.escape.js"
+            "keyword.operator.or.regexp"
          ],
          "settings": {
             "foreground": "#cc8844"
