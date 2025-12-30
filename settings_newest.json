@@ -16,7 +16,6 @@
    // "editor.stickyScroll.enabled": true,
    // "editor.stickyScroll.maxLineCount": 10,
    "editor.smoothScrolling": true, // needed (check on mac)
-
    "editor.fontFamily": "JetBrains Mono",
    "editor.fontLigatures": true,
    "editor.fontSize": 16,
@@ -28,20 +27,15 @@
    // "json.schemaDownload.enable": true,
    // "javascript.suggest.autoImports": true,
    // "typescript.suggest.autoImports": true,
-
    "workbench.panel.defaultLocation": "right",
    "workbench.editor.empty.hint": "hidden",
-
    "workbench.iconTheme": "material-icon-theme",
    "workbench.colorTheme": "One Dark Pro Darker",
-
    "material-icon-theme.folders.color": "#ddbb77",
    "material-icon-theme.hidesExplorerArrows": true,
    // "material-icon-theme.saturation": 0.5,
-
    "window.customTitleBarVisibility": "windowed", // check on mac (possibly ignored on mac)
    "window.menuBarVisibility": "visible", // check on mac
-
    "workbench.colorCustomizations": {
       "minimap.background": "#1e2227",
       "minimapSlider.background": "#00000040",
