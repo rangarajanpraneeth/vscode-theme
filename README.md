@@ -12,4 +12,7 @@ Code shown in the preview was sourced from [cactus-josh](https://github.com/josh
 "minimapSlider.background": "#00000040"
 "minimapSlider.hoverBackground": "#00000040"
 "minimapSlider.activeBackground": "#00000040"
+
+// this was removed from the "CSS ID, Selector" section
+"meta.selector.css" // class parameters, property names before typing
 ```
