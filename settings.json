@@ -1,0 +1,32 @@
+{
+   "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.tabSize": 4
+   },
+   "editor.bracketPairColorization.enabled": false,
+   "editor.cursorBlinking": "phase",
+   "editor.detectIndentation": false,
+   "editor.fontFamily": "JetBrains Mono",
+   "editor.fontLigatures": true,
+   "editor.fontSize": 16,
+   "editor.fontWeight": "500",
+   "editor.lineNumbers": "off",
+   "editor.minimap.renderCharacters": false,
+   "editor.minimap.scale": 2,
+   "editor.renderLineHighlight": "gutter",
+   "editor.renderWhitespace": "none",
+   "editor.scrollBeyondLastLine": false,
+   "editor.semanticHighlighting.enabled": true,
+   "editor.smoothScrolling": true,
+   "editor.stickyScroll.maxLineCount": 10,
+   "editor.tabSize": 3,
+   "editor.wordWrap": "on",
+   "material-icon-theme.folders.color": "#ddbb77",
+   "material-icon-theme.hidesExplorerArrows": true,
+   "security.workspace.trust.untrustedFiles": "open",
+   "window.customTitleBarVisibility": "windowed",
+   "workbench.colorTheme": "One Dark Pro",
+   "workbench.editor.empty.hint": "hidden",
+   "workbench.iconTheme": "material-icon-theme",
+   "workbench.panel.defaultLocation": "right"
+}
