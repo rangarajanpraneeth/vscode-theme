@@ -380,9 +380,16 @@
       },
       {
          "name": "CSS ID, Selector",
-         "scope": "meta.selector.css, entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css,entity.other.attribute-name.pseudo-element.css",
+         "scope": "entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css,entity.other.attribute-name.pseudo-element.css",
          "settings": {
             "foreground": "#FFC66D"
+         }
+      },
+      {
+         "name": "CLASS PARAMETERS, PROPERTY NAMES BEFORE CONFIRMATION, REMOVED FROM ABOVE (WAS FIRST ITEM IN LIST)",
+         "scope": "meta.selector.css",
+         "settings": {
+            "foreground": "#cccccc"
          }
       },
       {
