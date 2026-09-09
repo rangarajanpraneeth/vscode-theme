@@ -17,6 +17,7 @@ extension-name
    "displayName": "Slate",
    "description": "Custom theme",
    "version": "1.0.0",
+   "publisher": "rangarajanpraneeth",
    "engines": {
       "vscode": "^1.80.0"
    },
