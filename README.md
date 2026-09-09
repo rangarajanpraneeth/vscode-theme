@@ -4,9 +4,6 @@ QUICK START:
 
 ```
 extension-name
-|  package.json
-|  themes/
-|  |  theme.json
 ```
 
 `package.json`
@@ -14,13 +11,13 @@ extension-name
 ```json
 {
    "name": "custom-theme",
-   "displayName": "Slate",
-   "description": "Custom theme",
    "version": "1.0.0",
    "publisher": "rangarajanpraneeth",
    "engines": {
       "vscode": "^1.80.0"
    },
+   "displayName": "Slate",
+   "description": "Custom theme",
    "contributes": {
       "themes": [
          {
