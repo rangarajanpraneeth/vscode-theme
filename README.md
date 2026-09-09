@@ -1,4 +1,40 @@
-NOTE: You don't need ```settings.json``` anymore if you don't want to use it, since custom syntax highlighting no longer lives there. Just drop ```theme.json``` into whichever theme you installed, and it should work.
+QUICK START:
+
+`.vscode/extensions/extension-name`
+
+```
+extension-name
+|  package.json
+|  themes/
+|  |  theme.json
+```
+
+`package.json`
+
+```json
+{
+   "name": "custom-theme",
+   "displayName": "Slate",
+   "description": "Custom theme",
+   "version": "1.0.0",
+   "engines": {
+      "vscode": "^1.80.0"
+   },
+   "contributes": {
+      "themes": [
+         {
+            "label": "Slate",
+            "uiTheme": "vs-dark",
+            "path": "./themes/theme.json"
+         }
+      ]
+   }
+}
+```
+
+Visual Studio Code -> `Ctrl + Shift + P` -> `Developer: Install Extension from Location...`
+
+Select `extension-name` folder containing `package.json`
 
 I have found the editor settings in my ```settings.json``` to provide the best overall visual coherence with this theme. They are not required, but I recommend using them for the intended appearance and experience.
 
