@@ -25,8 +25,9 @@
    "material-icon-theme.hidesExplorerArrows": true,
    "security.workspace.trust.untrustedFiles": "open",
    "window.customTitleBarVisibility": "windowed",
-   "workbench.colorTheme": "One Dark Pro",
+   "workbench.colorTheme": "Slate",
    "workbench.editor.empty.hint": "hidden",
    "workbench.iconTheme": "material-icon-theme",
-   "workbench.panel.defaultLocation": "right"
+   "workbench.panel.defaultLocation": "right",
+   "python.terminal.useEnvFile": true
 }
