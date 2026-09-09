@@ -4,6 +4,10 @@ QUICK START:
 
 ```
 extension-name
+|   themes
+|   |   theme.json
+|   icon.png
+|   package.json
 ```
 
 `package.json`
@@ -26,7 +30,8 @@ extension-name
             "path": "./themes/theme.json"
          }
       ]
-   }
+   },
+   "icon": "./icon.png"
 }
 ```
 
